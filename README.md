@@ -30,10 +30,10 @@ and tell the person sitting next to you what your guess is.
    Complete the following table, where each entry is the runtime of the corresponding function when the input `container` is of the corresponding type.
    Write the runtimes in terms of `n=len(container)` using big-O notation.
 
-   |                        | `str` | `list` | `deque` |
-   | ---------------------- | ----- | ------ | ------- |
-   | `check_palindrome_1`   |  O(n) |        |         |
-   | `check_palindrome_2`   |       |        |         |
+   |                        | `str`      | `list`     | `deque`    |
+   | ---------------------- | -----      | ------     | -------    |
+   | `check_palindrome_1`   |4.32 ms/loop|4.15 ms/loop|63 ms/loop  |
+   | `check_palindrome_2`   |3.23 ms/loop|3.54 ms/loop|3.15 ms/loop|
 
    **HINT:**
    The runtimes for indexing into a string are the same as those for indexing a list, which is O(1).
